@@ -169,19 +169,6 @@ section {
 
 /* about-me-section */
 
-header ul li,
-.socials > li {
-  list-style: none;
-  height: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: center;
-}
-
 .programming-languages > li {
   background-color: #ebebff;
   border-radius: 8px;
@@ -204,10 +191,6 @@ header ul li,
 
 .languages li {
   list-style: none;
-}
-
-a {
-  text-decoration: none;
 }
 
 .snapshoot-style {
