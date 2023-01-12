@@ -169,6 +169,31 @@ section {
 
 /* about-me-section */
 
+.main_heading,
+.about-me-heading {
+  padding-left: 24px;
+  padding-top: 114px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #172b4d;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  -webkit-box-ordinal-group: 1;
+  -ms-flex-order: 0;
+  order: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
 .programming-languages > li {
   background-color: #ebebff;
   border-radius: 8px;
@@ -341,9 +366,11 @@ section .card-description {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: center;
 }
 
-.project-button {
+.project-button,
+.resume-button {
   background-color: #fff;
   color: #6070ff;
   font-weight: 500;
@@ -353,6 +380,10 @@ section .card-description {
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
+}
+
+.resume-button { 
+  margin-left: 24px;
 }
 
 .about-me {
