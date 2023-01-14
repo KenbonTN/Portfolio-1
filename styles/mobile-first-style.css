@@ -143,8 +143,8 @@ header {
   text-align: left;
 }
 
-section
-,.sec-div {
+section,
+.sec-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -172,6 +172,7 @@ section
 .lang {
   padding-left: 0%;
 }
+
 .main_heading,
 .about-me-heading {
   padding-left: 24px;
